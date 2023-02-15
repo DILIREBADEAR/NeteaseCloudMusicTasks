@@ -22,7 +22,7 @@ jobs:
   upload-files:
     if: github.repository == 'chen310/NeteaseCloudMusicTasks'
     name: upload
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Clone local repository
         uses: actions/checkout@v2
